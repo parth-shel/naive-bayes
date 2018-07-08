@@ -1,0 +1,10 @@
+workshop announcement
+
+XSEDE is pleased to announce a regular series of remote workshops on High Performance Computing topics. These hands-on workshops provide a convenient way for researchers to learn about the latest techniques and technologies of current interest in HPC. We are currently accepting satellite sites for:
+August 7 OpenMP(Last Call)
+    September 5-6 Big Data
+    October 2-3 MPI
+    Satellite sites MUST be able to provide a facility capable of two-way video for the duration of the workshop. There should also be a full time TA available to assist with local technical issues.
+
+    Truly yours, 
+    XSEDE

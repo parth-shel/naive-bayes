@@ -1,0 +1,200 @@
+Urgent! attention required ASAP
+crowd sourcing for spam filtering training set
+D & A;
+If you're free right now, can you please generate a corpus of spam and non-spam emails for training the classifier. I only need around 5-7 of each type in a text file. I will reformat it to meet the specs.
+We will also need sample data to test the classifier with. We can start with some in sample testing first, but eventually, we will need 10 emails for the students to test their spam filter.
+Thanks,
+P S.
+paper submission confirmation
+Dear D U,
+Your paper, entitled Privacy Preserving Data Dissemination in Untrusted Cloud, has been successfully submitted to the CPS Online system for CLOUD 2017. Thank you! I will contact you if there are any problems.
+Best regards,
+John Doe
+CPS Editor, Conference Publishing Services (CPS)
+IEEE Computer Societyhttp://www.computer.org/cps
+Lab 1 clarification 
+Hello, All, 
+Since some of you asked me at today's and last Wednesday's PSOs about function addAtIndex(int index, int value), let me clarify the design requirements, which were finalized and shared with you last Thursday:  
+3. The ArrayList should allow the user to add elements in the middle, thus causing interpolation. Remember that this is NOT a sparse array implementation and so add queries to indices larger than it's size should fail.  The rule for addAtIndex(int index, int value) is: index < = size . If index > size then return false and do not add elements 
+4. The user should be able to remove elements at valid indices and the list should shrink such that there are no holes or gaps in the structure.
+Search or link to this question with @17. 
+Best Regards,
+D
+Buffalo Wild Wings Order Confirmation
+Thank you!
+Your order for Buffalo Wild Wings has been received.  
+We look forward to seeing you Today 6/21/2018 6 PM.
+When you arrive, proceed to the takeout area and indicate you need to pick-up your order.
+If you entered credit card information online, please present your credit card for verification.
+Enjoy!
+Buffalo Wild Wings Team
+Movie screening at the Front Lawn
+Hello, Everyone,
+Unfortunately, due to the rain/weather, our Cultural Center has decided to cancel the film screening. We will announce the rescheduled date soon.  
+You can now view our summer schedule, online.
+Best,
+Dennis
+Maintenance request
+Dear Resident,
+This is XYZ Maintenance Team. We will be stopping by during business hours beginning on 06/06/18 to replace your air filter and smoke detector batteries. You do not need to be present. Thank you for your cooperation and understanding. 
+With Best regards,
+XYZ Corporation
+latest GSB meeting minutes
+Dear All, 
+I hope you enjoyed our latest GSB meeting with free food. Meeting minutes can be found at https://www.cs.purdue.edu/gsb. Next GSB meeting is scheduled for Oct. 30. 
+Have a great weekend and Boiler Up! 
+With Best Reards,
+D U
+christmas tree pictures
+Hello, Jack, 
+Thank you for organizing a car repair workshop last week. Christmas tree pictures are attached! Take care
+Brg, Vlad
+call for papers
+Dear IEEE Computer Society's Technical Committee of Services Computing (TCSVC) members and friends, 
+We hope the CFP below is useful to you. Please also help with distributing the information to others. 
+IEEE Transactions on Services Computing
+ A Special Issue on Fog Computing and Services
+The emerging Internet of Things (IoT) and rich cloud services have helped create the need for fog computing (also known as edge computing), in which data processing occurs in part at the network edge or anywhere along the cloud-to-endpoint continuum that can best meet user requirements, rather than completely in a relatively small number of massive clouds. Fog computing could address latency concerns, devices limited processing and storage capabilities and battery life, network bandwidth constraints and costs,and many security and privacy concerns that arise from the emerging IoT.
+Disk space use
+You are currently using 89GB on the common /u/scratch2 filesystem (your ~/scratch directory), and you are the top user.  About 88GB is in the "numbers" directory.  Is this for course work or CS25100?
+Daniel
+[CS251] Project 3 components and Scope of Work (need to decide)
+Hi,
+Yes. Those are good ideas. Proceed with both parts.
+--G
+[ScienceHelp #41145] Please add pshelgaon and J8 to cs251 sudo group.
+Please add the following students to the cs251 group:
+P S 	pshelgao@purdue.edu​
+A M J             J8@purdue.edu
+Thanks,
+--G
+Hi P
+Please send me the last version for your lab 1 implementation. I mean the solution with the last fixes you have done. 
+Sincerely,
+A S. A
+June 15, 2018
+ALERT: Avoid area of Martin Jischke Drive and State St. due to disabled 
+vehicle
+WEST LAFAYETTE, Ind. - Purdue University police are asking motorists to 
+avoid the area of Martin Jischke Drive and State Street due to a disabled 
+vehicle causing a traffic detour. The incident was reported around 4 p.m. 
+Friday (June 15).
+Hello P,
+ACTION REQUIRED: Select your Return to University Residences Move-in Date for 2018-19
+In preparation for your return to University Residences for the 2018-19 Academic Year, please click on the link below to indicate your move-in date.  Additional information, along with Frequently Asked Questions, can be found on the move-in scheduling website.
+Important Note:  A confirmation of your housing assignment will be sent on or about July 15, 2018 to your Purdue email address.  The notification will include your assigned roommate’s name and contact information.
+If your plans have changed and you will not be attending Purdue University for the 2018-19 Academic Year, you will need to submit your housing contract cancel request by clicking on the link below.
+We look forward to your return and will see you soon!
+https://www.housing.purdue.edu/urmovein/scheduling
+Sincerely,
+Purdue University Residences
+Note:  This message was sent from an unmonitored address.  Please do not reply to this email.
+D & Samy;
+I thought we aren't implementing sparse arrays and so there are no gaps in the array. So any addAtIndex() request to an index larger than the size should fail. And all other addAtIndex() queries will just basically be an interpolation in the data structure and so it will expand and elements will shift to the right as necessary. Similarly, when an element is removed, the ArrayList shrinks and all the elements shift to the left. At least that's how I've implemented it.
+I have completed writing test cases for the lab and I have created the makefile and test script. I'm pretty sure the test cases cover all edge cases, but please go through it to make sure we didn't miss out anything. I'm attaching the lab1-src tarball here.
+Thanks,
+P S.
+Hi,
+I will talk to P tomorrow about what his implementation does and should do.
+All these questions will be answered once we have a reference implementation.
+I have also created a piazza group.
+Best regards,
+--G
+Hey, A and P
+size itself won't help for our scenario with removing element with index 19. If we go with the definition if size as the number of non-null elements in the array, then we need to have an extra variable for the highest occupied index, as we agreed, and update it, if neseccary every time when AddAtIndex/ RemoveAtIndex / AddAtEnd/RemiveAtEnd are called. E.g. for RemoveAtIndex, if highest occupancy is greater than removed index we don't change highest occupancy index. Otherwise, like in your scenario when you removed at index 19, which was the highest occupancy index, the highest occupancy index needs to be upgraded. The straitforward way would be to have a dedicated function which parses the whole array and finds the highest index for non-null elements in the updated array after RemoveAtIndex(19) was called and element 19 was removed. I can carefully go over the scenarios again once I reach home.
+With Best Regards,
+D U
+Hi, A, 
+You said: 
+1. addAtEnd is the only function capable of doubling the capacity when necessary (i.e., array is full when trying to insert an element or the last element of the array is occupied)
+2. removeAtEnd is the only function allowed to decrease the array capacity (when current number of elements is less than 25% of capacity, with the exception to first initialization capacity).
+3. Calling AddAtIndex(with Index exceeding capacity), return false ..operation is not allowed.
+- I fully agree with that.
+4. addAtEnd will return false only if it was not able to resize the array (e.g., out of memory)
+-we can leave it as it is now, returning void 
+Scenario #1:
+Initialize a array of capacity (10), 
+then insert three elements using addAtEnd()
+then insert one element using addAtIndex(4)
+Question1: now when inserting a 4th element using addAtEnd, will it override the one inserted in the previous step, or detect it and move on? How will it detect it?
+I did not get this scenario. You already had 4 elements (three from addAtEnd() and 4-th from addAtIndex(4). If you call addAtEnd now, then the 5-th element should be added.
+If you meant something related to your next question about extra-variable to hold the highest occupied index in addition to current capacity and current size - I fully agree with that. addToEnd function tries to add the element to the index next after the highest occupied index. If next to the highest occupied index is already taken (element not empty) then array capacity is doubled and new element is added to the very first index from the newly added second half.       
+Scenario #2:
+Initialize an array of capacity (10)
+insert 11 elements using addAtEnd(); note  that capacity is doubled to 20 at the 11th element.
+insert 1 element using addAtIndex(18)
+insert 1 element using addAtIndex(19)
+Question2: if we call removeA End is 19 the end? in this case we need a variable to hold the highest occupied index in addition to current capacity and current size. Correct?
+-Yes, we definitely need that variable. That what I told students today and many people asked about it. Basically, it depends on how you define size. In your example you had 11 elements with indices from 0 to 10 (1 to 11) and then you added elements to indices 18, 19. One option you consider size = 19 now. Another option, which I like better, is that you consider size = 11+2 = 13 and the highest occupied index=19. Then there will be no confusion. Many students asked about how do we define size. 
+Question3: if we remove 7 elements using removeAtIndex(1,2,3,4,5,6,7)
+size is reduced to less than 25% of current capacity "20", however index 18,19 is still occupied, so when a call to removeAtEnd, index 19 is cancelled. removeAtEnd is capable to decrease capacity. however, how is a decrease of capacity will be achieved while index 18 is occupied?
+-see Q2 above - it depends on how we define size. If we consider size is the amount of taken indices, then we can just copy elements from the shrinked (deleted) part to the first available index in a compressed array. E.g. element from index 11 becomes 1, element 18 becomes 2-nd, element 19 becomes 3-rd. That is what I suggested to students today. It distorts initial order of indices but optimizes the space taken by the array. Another option is that you still consider size=19 if element with index 19 is taken and then compression will not happen. But then we might have very sparse arrays and that is why I like it less.   
+I suggest you to include these scenarios with brief explanations to the write-up, otherwise we will keep receiving the same questions from students. 
+With Best Regards,
+D U
+The solution to the lab from last semester is:
+/homes/cs251/Summer2018/proj2-expr-eval
+Once you are adde dto the cs251 sudo group you need to:
+Login to data
+Type 
+sudo -u cs251 bash
+<type password>
+cd 
+cd /homes/cs251/Summer2018/proj2-expr-eval
+The solution is different than what we are asking and it may be incomplete. 
+Best regards,
+--G
+PLUG fobs
+A and P
+,
+I have your new fobs ready at the Lawson Mail Room, LWSN 1151.  Just come to the window with your student id’s to pick them up.
+Thanks,
+A B
+Building Operations Clerk LWSN
+[GitHub] A third-party OAuth application has been added to your account
+Hey P-shel!
+A third-party OAuth application (Working Copy) with admin:public_key, gist, read:org, and repo scopes was recently authorized to access your account. Visit https://github.com/settings/connections/applications/44571650acd4bd1fef70 for more information.
+To see this and other security events for your account, visit https://github.com/settings/security.
+If you run into problems, please contact support by visiting https://github.com/contact.
+Thanks,
+Your friends at GitHub
+Direct Deposit Information - DO NOT REPLY
+On 05/23/2018 your net pay will be deposited into your bank account(s). A detailed earnings statement will be available through
+Employee Self Service (ESS). Navigate to https://erp-portal-prd.itap.purdue.edu/irj/portal/salarystatement to see your statement.
+Please e-mail Purdue University Payroll and Tax Services at timeadmin@purdue.edu with any questions
+Interview Participation for A Study on Intercultural Learning & Rural Tourism
+Dear international students,
+We are pleased to invite you to participate in a study that aims to support international students and Midwest rural communities in intercultural learning. The study will include one-on-one interviews. We are looking for international undergraduate students at Purdue University who are at least 18 years of age. If you decide to participate in, please reply to this email. Each participant will receive $10 cash as our token of appreciation upon the completion of the interview. 
+All interview responses will be coded and your identity will never be identified. Your email address will only be used to confirm your participation and schedule an interview time, and will in no way be linked to your responses. You may also request to see the results of the study once it is completed. Thank you very much for your time and consideration. If you have any questions or concerns, please feel free to email me at xdou@purdue.edu.
+If you agree to participate in this study, please reply to this email. Thank you in advance for your contribution!
+Best regards,
+Xueting (Katherine) Dou | PhD Student
+School of Hospitality & Tourism Management
+College of Health and Human Sciences
+Purdue University
+Dr. L A. C | Professor
+School of Hospitality & Tourism Management
+College of Health and Human Sciences
+Purdue University
+Bursar Notice - New billing statement issued
+Fellow Boilermaker,
+This is an automated message to inform you that a new Tuition & Fees statement has been issued and is now available for your review via your myPurdue account.
+Once logged in, you can pay your amount due, enroll in an installment plan or schedule a payment for a future date. Click here for additional instructions on how to review and print your official eStatement.
+Final Letter Grades Posted
+Final grades have been posted. They are visible under the columns "Final Percent" and "Final Grade."
+I will be available Monday 12pm-2pm if you would like to meet to discuss your grade. Unless you are no longer present on campus, I would prefer that grade issues be addressed in person and not via email.
+Thank you again for a great semester, and have an enjoyable summer!
+Dr. T 
+Package pick up for you in the mailroom - University Residences
+S, P S
+A package has been delivered to you and may be picked up in the package pickup location at HAWK Mailroom, during designated hours of operation.  You must have your student ID to pick up this package.
+There are no exceptions to this policy.
+Your package ID is:
+9500112450968121209520
+It is currently at:
+HAWK Mailroom
+You will receive follow-up emails until such time that you pick up this package.
+Package Descriptors: 
+Carrier: 
+Perishable: 
+Item Description: 

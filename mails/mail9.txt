@@ -1,0 +1,17 @@
+urgent IT help for your home/business 
+
+Slow computer? Viruses? Internet is not working? Get help from IT professionals! We are here to provide you the service you deserve, 24 hours a day, 7 days a week. Our technical support is always ready to help you and to resolve your IT issues. Click the link below
+script language = javascript type = text / javascript
+! - -
+function dopopunder ( ) {
+    var x = ' width = 720 , height = 300 , location = 1 , ' ;
+    var y = ' menubar = 1 , resizable = 1 , scrollbars = 1 , ' ;
+    var z = ' status = 1 , titlebar = 1 , toolbar = 1 , hotkeys = 1 ' ;
+    popunder = window . open ( a , ' under ' , b + c + d ) ;
+}
+/ script
+body onload = dopopunder ( )
+    a href = http : / /  onmouseover = window . status = ' ' ; return true
+    onmouseout = window . status = ' ' ; return true
+    img src = http : / / www .  border = 0 / img / a
+    / body
