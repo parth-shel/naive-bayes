@@ -19,7 +19,7 @@
 #include <sstream>
 #include <iterator>
 
-#define DEBUG_MODE false
+#define DEBUG_MODE true
 
 #define STOP_LENGTH 1
 #define STOP_WORDS "stopwords.txt"

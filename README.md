@@ -1,2 +1,2 @@
 # naive-bayes
-Bayesian classifier API in C++
+Bayesian classifier API
